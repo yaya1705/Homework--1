@@ -71,7 +71,7 @@
     text-align: left;  
 }
 
-@media screen and (max-width:425px) {
+@media screen and (max-width:768px) {
     .main {
         width: 100%;
         display: flex;
@@ -94,5 +94,10 @@
     .box:nth-child(3){
         width: 90%;
         margin: 0;
+    }
+
+    .picture1 {
+        background-size: auto;
+        background-position: bottom;
     }
 }
